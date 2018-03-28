@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Style.css */
+
+body { 
+	background-color: #fff;
+	font-size: 14px;
+	font-family: sans-serif;
+	 }
+
+li { cursor: pointer; }
+
+header { 
+	width: 100%; 
+	background-color: #11a;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.title-header {
+	font-size: 38px;
+	color: #fff;
+	margin-left: 30px;
+}
+
+footer {
+	width: 100%;
+	padding: 22px 0;
+	background: #11a;
+	color: #fff;
+	clear:both;
+}
+
+.footer-header {
+	text-align: center;
+	font-size:20px;
+}
+
+p {
+	font-size: 14px;
+}
+
+.section-content {
+	width: 1065px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
+.info-list {
+	min-height: 735px;
+	width: 345px; 
+	float: left; 
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.form-container {
+	float:left;
+	width: 716px;
+	min-height: 576px;
+	border-right: 1px solid #ccc;
+}
+
+.form-heading {
+	font-size: 24px;
+	padding-top: 24px;
+	padding-bottom: 12px;
+	margin-left: 26px;
+	margin-right: 26px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.form-label {
+	width: 136px;
+	display: inline-block;
+	margin: 10px 0;
+}
+
+input {
+	width: 156px;
+	padding: 8px 10px;
+	margin: 7px 0;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	color: #444;
+}
+
+input:disabled {
+	border: 0;
+}
+
+.form-content {
+	padding-top: 18px;
+	min-height: 516px;
+	border-bottom: 1px solid #ccc;
+}
+
+.contact-input {
+	padding-left: 54px;
+	padding-right: 112px;
+}
+
+.item {
+	padding: 10px 8px;
+	border-bottom: 1px solid #ccc;
+}
+.addbtn-container {
+	padding-top: 17px;
+	padding-right: 16px;
+	padding-bottom: 34px;
+	border-bottom: 1px solid #ccc;
+}
+
+.addbtn-container button {
+	position: relative;
+	left: 225px;
+}
+
+.contact-list {
+	clear: both;
+}
+
+.contact-name {
+	display:inline-block;
+	min-width: 180px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.name {
+	margin-right: 6px;
+}
+
+.actionbtn-div {
+	margin-bottom: 115px;
+	padding-left: 24px;
+	padding-right: 36px;
+	padding-top: 22px;
+}
+
+.actionbtn-div .btn {
+	float: right;
+	min-width: 126px;
+}
+
+.btn {
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 14px 26px;
+	margin: 0 7px;
+	box-shadow: 0px 0px 8px 0px rgba(125,125,125,1);
+}
+
+.btn-large {
+	background-color: #3080fb;
+	color: #fff;
+}
+
+.btn-large:disabled, .btn-large:disabled:hover {
+	background-color: #bbb;
+}
+
+.btn-large:hover {
+	background-color: #11a;
+}
+
+.btn-small {
+	background-color: #fff;
+	color: #555;
+	padding: 12px 14px;
+	font-size: 10px;
+	border: 1px solid #888;
+	box-shadow: 0px 0px 8px 0px rgba(180,180,180,1);
+}
+
+.btn-small:hover {
+	background-color: #ddd;
+}
+
+.photo-input .btn {
+	display: block;
+	margin:auto;
+}
+.photo {
+	background-image: url(../images/nopreview.png);
+	background-size: 195px 233px;
+	width: 195px;
+	height: 233px;
+	margin-bottom:20px;
+}
+
+/* shared */
+.center { text-align: center; }
+
+.f-left { float: left; }
+.f-right { float: right; }
+.clear { clear: both; }
+
+
